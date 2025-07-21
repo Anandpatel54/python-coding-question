@@ -77,3 +77,18 @@
 #     print(f"{year} is a leap year.")
 # else:
 #     print(f"{year} is not a leap year.")
+
+#(7:-) write a program to check it a number is a single digit , it a second digit or a third digit or up to 5 digit
+
+# num = int(input("Enter a number: "))
+# if num >= 0 and num< 9:
+#     print("The number is a single digit.")
+# elif num >= 10 and num <=99:
+#     print("The number is a two-digit number.")
+# elif num >= 100 and num<= 999:
+#     print("The number is a three-digit number.")
+# elif num >= 1000 and num <= 9999:
+#     print("The number is a four-digit number.")
+
+# else:
+#     print("The number is a five-digit number or more.")
