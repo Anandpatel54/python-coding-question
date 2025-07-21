@@ -92,5 +92,3 @@
 
 # else:
 #     print("The number is a five-digit number or more.")
-
-fgfgg
