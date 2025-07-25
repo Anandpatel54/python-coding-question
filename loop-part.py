@@ -34,14 +34,22 @@
 
 
 #(5:-) write a program to check whether a number is prime or not
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-if num > 1:
-    for i in range(2, num):
-        if (num % i) == 0:
-            print(num, "is not a prime number")
-            break
-    else:
-        print(num, "is a prime number")
-else:
-    print(num, "is not a prime number")
+# if num > 1:
+#     for i in range(2, num):
+#         if (num % i) == 0:
+#             print(num, "is not a prime number")
+#             break
+#     else:
+#         print(num, "is a prime number")
+# else:
+#     print(num, "is not a prime number")
+
+#(6:-) write a program to find the factorial of a number
+
+# num = int(input("Enter a number to find its factorial: "))
+# fact = 1
+# for i in range(1, num+1):
+#     fact *= i
+#     print(f"The factorial of", fact)
