@@ -53,3 +53,24 @@
 # for i in range(1, num+1):
 #     fact *= i
 #     print(f"The factorial of", fact)
+
+#(7:-) write a program to find the sum of digits of a number
+
+# num = int(input("Enter a number to find the sum of its digits: "))
+
+# sum = 0
+# while num > 0 :
+#     digit = num % 10
+#     sum += digit
+#     num //= 10
+# print(f"The sum of the digits is: {sum}")
+
+#(8:-) write a program to find the reverse of a number
+
+# num = int(input("Enter a number to find its reverse: "))
+# reverse = 0
+# while num > 0:
+#     digit = num%10
+#     reverse = reverse * 10 + digit
+#     num //= 10
+# print(f"The reverse of the number is: {reverse}")
