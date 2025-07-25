@@ -93,26 +93,3 @@
 # else:
 #     print("The number is a five-digit number or more.")
 
-
-#  Fibonacci series using a simple loop
-
-# n = int(input("Kitne terms chahiye? "))
-
-# a, b = 0, 1
-
-# print("Fibonacci series:")
-# for i in range(n):
-#     print(a, end=" ")
-#     a, b = b, a + b
-
-# num = int(input("Enter a number: "))
-
-# if num > 1:
-#     for i in range(2, num):
-#         if (num % i) == 0:
-#             print(num, "is not a prime number")
-#             break
-#     else:
-#         print(num, "is a prime number")
-# else:
-#     print(num, "is not a prime number")
